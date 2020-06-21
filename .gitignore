@@ -1,2 +1,3 @@
 node_modules/
 start-mongod.bat
+config/
