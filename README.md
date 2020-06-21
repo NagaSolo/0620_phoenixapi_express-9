@@ -33,9 +33,9 @@ separation of concern:
 - (cmd) start mongo service `.\Program Files\MongoDB\Server\4.2\bin\mongo.exe` -> `NEXT`
     - (script) create bat script(windows) for easy start mongod -> `start-mongod.bat`
         - (inside bat) `start "" "C:\Program Files\MongoDB\Server\4.2\bin\mongod.exe" --dbpath c:\data\db`
-- (cmd) get mongo port connection, put it to `config/parameters` -> `NEXT`
-- (vscode) put MongoDB URL configuration into config folder parameters -> `NEXT`
-- (vscode) define model using `mongoose` Schema -> `NEXT`
+- (cmd) get mongo port connection, put it to `config/parameters` -> `DONE`
+- (vscode) put MongoDB URL configuration into config folder parameters -> `DONE`
+- (vscode) define model using `mongoose` Schema -> `WIP`
 - (vscode) create routes at `index.js`, as defined at `swagger.yaml` -> `NEXT`
 - (vscode) create controller function for every routes -> `NEXT`
 - (vscode) also create a service to interact with db -> `NEXT`
