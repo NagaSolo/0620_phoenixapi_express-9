@@ -4,7 +4,7 @@
 
 - June 20th, 2020 project/craft/product
 - 0620_phoenixapi_express-9
-- contact list API using expressjs, mongodb
+- contact list API using expressjs@v12.16.3, mongodb
 
 ### User Stories
 - user can view name of contacts, email, descriptions, mobile number
