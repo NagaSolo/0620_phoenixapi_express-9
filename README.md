@@ -59,3 +59,6 @@ separation of concern:
 ##### v39.16 mongoose to mongo conn
 ##### v41.50 define models
 ##### v50 using `co` module at `helpers`
+
+##### russian guide
+##### v20.31 express handlebars
