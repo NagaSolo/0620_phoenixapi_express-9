@@ -41,6 +41,7 @@ separation of concern:
 - (vscode) also create a service to interact with db -> `NEXT`
 
 ### Testing
+- `npm run dev` -> run development using `nodemon`
 - `npm start`
 - (deprecated) start `mongod.exe` -> `.\Program Files\MongoDB\Server\4.2\bin\mongod.exe" --dbpath=c:\data\db`, `mongodb compass` for interactivity
 - (cmd) `.\start-mongod.bat`
