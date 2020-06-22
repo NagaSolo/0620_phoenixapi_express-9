@@ -19,11 +19,12 @@ swagger:
 - create an API specs using `editor.swagger.io` -> `NEXT`
 - download created API -> `NEXT`
 
-nodejs:
+nodejs packages:
 - (wsl) `npm init` project -> `DONE`
 - create `.gitignore`, to exclude `npm_modules` -> `DONE`
 - (wsl) `npm` `i` `-s` `express` `body-parser` -> `DONE`
 - (wsl) install mongoose, `npm i -s mongoose` -> `DONE`
+- (wsl) install `express-handlebars`, to handle views -> `DONE`
 - (vscode) put `body-parser` to parse json body -> `NEXT`
 - (vscode) put `cors`, `npm i -s cors`, cross domain module -> `NEXT`
 - (wsl) `npm` `i` `-s` `co` `config` `lodash` -> `NEXT`
@@ -33,12 +34,19 @@ separation of concern:
 - (cmd) start mongo service `.\Program Files\MongoDB\Server\4.2\bin\mongo.exe` -> `NEXT`
     - (script) create bat script(windows) for easy start mongod -> `start-mongod.bat`
         - (inside bat) `start "" "C:\Program Files\MongoDB\Server\4.2\bin\mongod.exe" --dbpath c:\data\db`
+    `OR`
+    - (Mongodb Compass) -> connect to existing db / or create new db
 - (cmd) get mongo port connection, put it to `config/parameters` -> `DONE`
 - (vscode) put MongoDB URL configuration into config folder parameters -> `DONE`
 - (vscode) define model using `mongoose` Schema -> `WIP`
 - (vscode) create routes at `index.js`, as defined at `swagger.yaml` -> `NEXT`
 - (vscode) create controller function for every routes -> `NEXT`
 - (vscode) also create a service to interact with db -> `NEXT`
+
+- `config\` folder -> PORT and mongodb connection
+- `models\` folder -> data models
+- `views\` folder -> view template
+- `routes\` folder -> routes to resources
 
 ### Testing
 - `npm run dev` -> run development using `nodemon`
